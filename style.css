@@ -45,8 +45,14 @@ body{
     color: rgb( 1, 1 ,74);
     text-shadow: 0 3px 2px #00000020;
 }
+.profession{
+    font-size: 14px;
+    font-weight: 600;
+    color: #5f5c5c;
+}
 .phrase{
     font-style: italic;
     font-size: 10px;
-
+    color: #5f5c5c;
+    font-weight: 500;
 }
