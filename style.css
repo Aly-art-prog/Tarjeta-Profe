@@ -26,29 +26,31 @@ body{
     padding: 1rem;
 }
 .card {
-    padding: 1rem;
-    display: flex;
-    border: 1px solid #ccc;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
+    padding: 16px;
     border-radius: 8px;
-    box-shadow: 0 5px 5px #00000050;
+    border:1px solid #d5d1d1 ;      
+    justify-content: center;
+    box-shadow: 0 5px 6px rgba(113, 16, 16, 0.208);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: whitesmoke;
 }
 .card img{
-    border-radius:50% ;
-    border: 3px solid rgb( 1, 1 ,74);
-    width: 150px;
+    border: 4px solid rgb(237, 234, 234);
+    border-radius: 10px;
+    width: 160px;
 }
 .title-name{
-    color: rgb( 1, 1 ,74);
+    color: rgb(42, 97, 70);
     text-shadow: 0 3px 2px #00000020;
 }
 .profession{
+    font-family: 'Vast Shadow';
     font-size: 14px;
-    font-weight: 600;
-    color: #5f5c5c;
+    font-weight: 700;
+    color: rgb(126, 126, 171);
 }
 .phrase{
     font-style: italic;
